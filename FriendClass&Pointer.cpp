@@ -29,6 +29,13 @@ public:
         return 2 * (a + b);
     }
     
+    void output(){
+        cout << "\n=== Output Layang-Layang ===" << endl;
+        cout << "Luas : " << luas() << endl;
+        cout << "Keliling : " << keliling() << endl;
+    }
+
+    
 
 }
 
