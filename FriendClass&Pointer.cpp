@@ -68,7 +68,11 @@ public:
         cout << "Luas : " << luas() << endl;
         cout << "Keliling : " << keliling() << endl;
     }
-    
 
+    // mengakses data LayangLayang (friend)
+    void lihatKelilingLayang(LayangLayang l) {
+        cout << "\n[Friend] Keliling Layang-Layang: "
+             << 2 * (l.a + l.b) << endl;
+    }
 }
 
