@@ -74,5 +74,20 @@ public:
         cout << "\n[Friend] Keliling Layang-Layang: "
              << 2 * (l.a + l.b) << endl;
     }
-}
+};
 
+int main() {
+    LayangLayang l;
+    BelahKetupat b;
+
+    l.input();
+    l.output();
+
+    b.input();
+    b.output();
+
+    // akses friend
+    b.lihatKelilingLayang(l);
+
+    return 0;
+}
