@@ -63,6 +63,11 @@ public:
         return 4 * sisi;
     }
 
+    void output() {
+        cout << "\n=== Output Belah Ketupat ===" << endl;
+        cout << "Luas : " << luas() << endl;
+        cout << "Keliling : " << keliling() << endl;
+    }
     
 
 }
