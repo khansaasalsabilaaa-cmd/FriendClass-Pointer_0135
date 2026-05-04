@@ -35,7 +35,14 @@ public:
         cout << "Keliling : " << keliling() << endl;
     }
 
-    
+    // friend class
+    friend class BelahKetupat;
+};
 
+class BelahKetupat {
+private:
+    float d1, d2;
+    float sisi;
+    
 }
 
