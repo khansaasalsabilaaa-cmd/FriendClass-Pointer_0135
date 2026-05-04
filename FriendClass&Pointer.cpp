@@ -54,6 +54,11 @@ public:
         cout << "Sisi : ";
         cin >> sisi;
     }
-    
+
+    float luas() {
+        return 0.5 * d1 * d2;
+    }
+
+
 }
 
